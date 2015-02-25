@@ -1,0 +1,388 @@
+@import url('http://fonts.googleapis.com/css?family=Montserrat');
+@import url('http://fonts.googleapis.com/css?family=Neuton');
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+ins,
+kbd,
+label,
+legend,
+li,
+main,
+mark,
+menu,
+meter,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+u,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+
+nav {
+	font: 18px / 1.5 Montserrat, sans-serif;
+	padding-top: 80px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+ul {
+	list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+		overflow: hidden;
+		float: right;
+		text-align: right;
+}
+
+li {
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-top-style: solid;
+  border-top-color: #993333;
+  border-top-width: 2px;
+}
+
+section {
+  display: block;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+  overflow: hidden;
+}
+
+body {
+  font: 18px / 1.5 Neuton, "Helvetica Neue", "Liberation Sans", FreeSans, sans-serif;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Monaco, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+h1 {
+  padding: 0px;
+  font: 30px Montserrat, sans-serif;
+  
+}
+
+h2 {
+  font: 20px Montserrat, sans-serif;
+  float: left;
+  border: 0 #993333 solid;
+  border-bottom-width: 2px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+ol {
+  list-style: decimal;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}
+
+body {
+  background: white;
+  color: #333;
+  text-align: center;
+}
+
+a {
+  color: #993333;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #e1b3b3;
+  text-decoration: none;
+}
+time {
+    border: 0;
+    margin: 0;
+    padding: 0px;
+    font: 15px / 1.5 Neuton, "Helvetica Neue", "Liberation Sans", FreeSans, sans-serif;
+	float: right;
+}
+.example-block {
+  background: #eee;
+  font-size: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.grid-container {
+  padding-bottom: 20px;
+}
+
+.grid-container > hr {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div[class*="push-"] section {
+  background: #dec;
+}
+
+div[class*="pull-"] section {
+  background: #fcd;
+}
+
+.dynamic-px-width {
+  display: block;
+}
+	
+.contact {
+padding-top: 0px;
+padding-left: 20px;
+padding-right: 20px;
+float: right;
+background: #e1b3b3;
+}
+
+.banner {
+padding: 0px;
+align: right;
+float: right;
+}
+
+.main-content {
+padding-top: 0px;
+padding-left: 20px;
+padding-right: 0px;
+float: left;
+}
+
+.main-text {
+padding-top: 0px;
+padding-left: 20px;
+padding-right: 20px;
+float: right;
+text-align: justify;
+text-justify: inter-word;
+text-indent: 20px;
+}
+
+.fwf {
+padding-top: 40px;
+padding-left: 20px;
+padding-right: 20px;
+float: left;
+}
+.kfu {
+padding-top: 00px;
+padding-left: 20px;
+padding-right: 20px;
+float: right;
+}
+
+.person-list {
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 0px;
+float: left;
+align: left;
+}
+
+.ul-person-list {
+margin: 0;
+padding: 20px;
+overflow: hidden;
+float: left;
+text-align: left;
+display: block;
+	}
+
+.li-person-list {
+display: block;
+border-top-style: solid;
+border-top-color: #993333;
+border-top-width: 0px;
+	}
